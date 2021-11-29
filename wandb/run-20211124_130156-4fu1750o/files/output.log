@@ -1,0 +1,314 @@
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | model     | Cat_Dog          | 5.3 M
+1 | train_acc | Accuracy         | 0
+2 | val_acc   | Accuracy         | 0
+3 | ce_loss   | CrossEntropyLoss | 0
+-----------------------------------------------
+5.3 M     Trainable params
+0         Non-trainable params
+5.3 M     Total params
+21.062    Total estimated model params size (MB)
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448265233/work/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+
+Training: 0it [00:00, ?it/s]
+Training epoch is started!
+Epoch 0:   0%|                                                                                                                                                                                                   | 0/577 [00:00<?, ?it/s]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  76%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                | 440/577 [00:32<00:10, 13.38it/s, loss=0.611, train_loss=0.594, train_acc=0.562]
+Epoch 0:  83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                       | 480/577 [00:34<00:06, 13.95it/s, loss=0.611, train_loss=0.594, train_acc=0.562]
+
+Validating:  34%|███████████████████████████████████████████████████████████████                                                                                                                        | 40/116 [00:02<00:04, 18.98it/s]
+
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:33<00:10, 13.17it/s, loss=0.628, train_loss=0.561, train_acc=0.688, val_loss=0.609, val_acc=0.657]
+Epoch 1:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:07, 13.72it/s, loss=0.628, train_loss=0.561, train_acc=0.688, val_loss=0.609, val_acc=0.657]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.48it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:06, 13.92it/s, loss=0.529, train_loss=0.681, train_acc=0.719, val_loss=0.595, val_acc=0.654]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+
+Training epoch is done.
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:32<00:10, 13.37it/s, loss=0.581, train_loss=0.660, train_acc=0.625, val_loss=0.536, val_acc=0.718]
+Epoch 3:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:06, 13.93it/s, loss=0.581, train_loss=0.660, train_acc=0.625, val_loss=0.536, val_acc=0.718]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.84it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:32<00:10, 13.61it/s, loss=0.527, train_loss=0.525, train_acc=0.688, val_loss=0.516, val_acc=0.747]
+Epoch 4:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:33<00:06, 14.18it/s, loss=0.527, train_loss=0.525, train_acc=0.688, val_loss=0.516, val_acc=0.747]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.72it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:32<00:10, 13.42it/s, loss=0.574, train_loss=0.515, train_acc=0.656, val_loss=0.491, val_acc=0.765]
+Epoch 5:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:06, 13.97it/s, loss=0.574, train_loss=0.515, train_acc=0.656, val_loss=0.491, val_acc=0.765]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.78it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 6:  76%|██████████████████████████████████████████████████████████████████████████████████▎                         | 440/577 [00:32<00:10, 13.66it/s, loss=0.54, train_loss=0.620, train_acc=0.719, val_loss=0.479, val_acc=0.773]
+Epoch 6:  83%|█████████████████████████████████████████████████████████████████████████████████████████▊                  | 480/577 [00:33<00:06, 14.25it/s, loss=0.54, train_loss=0.620, train_acc=0.719, val_loss=0.479, val_acc=0.773]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 19.10it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 7:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:33<00:10, 13.28it/s, loss=0.527, train_loss=0.546, train_acc=0.750, val_loss=0.453, val_acc=0.787]
+Epoch 7:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:06, 13.86it/s, loss=0.527, train_loss=0.546, train_acc=0.750, val_loss=0.453, val_acc=0.787]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.52it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+Epoch 8:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:06, 13.87it/s, loss=0.512, train_loss=0.584, train_acc=0.719, val_loss=0.459, val_acc=0.790]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+
+Training epoch is done.
+Training epoch is started!
+Epoch 9:   0%|                                                                                                                     | 0/577 [00:00<?, ?it/s, loss=0.543, train_loss=0.710, train_acc=0.571, val_loss=0.448, val_acc=0.796]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 9:  76%|█████████████████████████████████████████████████████████████████████████████████▌                         | 440/577 [00:33<00:10, 13.23it/s, loss=0.494, train_loss=0.389, train_acc=0.781, val_loss=0.448, val_acc=0.796]
+Epoch 9:  83%|█████████████████████████████████████████████████████████████████████████████████████████                  | 480/577 [00:34<00:07, 13.80it/s, loss=0.494, train_loss=0.389, train_acc=0.781, val_loss=0.448, val_acc=0.796]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 18.82it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+Epoch 10:  76%|████████████████████████████████████████████████████████████████████████████████▊                         | 440/577 [00:33<00:10, 13.32it/s, loss=0.493, train_loss=0.479, train_acc=0.812, val_loss=0.430, val_acc=0.797]
+Epoch 10:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:34<00:06, 13.90it/s, loss=0.493, train_loss=0.479, train_acc=0.812, val_loss=0.430, val_acc=0.797]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                        | 80/116 [00:04<00:01, 19.17it/s]
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+Epoch 11:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:34<00:07, 13.77it/s, loss=0.435, train_loss=0.383, train_acc=0.812, val_loss=0.418, val_acc=0.809]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+
+Training epoch is done.
+Training epoch is started!
+Epoch 12:   0%|                                                                                                                    | 0/577 [00:00<?, ?it/s, loss=0.502, train_loss=0.805, train_acc=0.571, val_loss=0.420, val_acc=0.818]
+
+
+
+
+
+
+
+
+
+
+Epoch 12:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:34<00:06, 14.04it/s, loss=0.457, train_loss=0.394, train_acc=0.812, val_loss=0.420, val_acc=0.818]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+Training epoch is done.
+Training epoch is started!
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+Epoch 13:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:33<00:06, 14.20it/s, loss=0.455, train_loss=0.444, train_acc=0.844, val_loss=0.419, val_acc=0.801]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+
+Training epoch is done.
+Training epoch is started!
+Epoch 14:   0%|                                                                                                                    | 0/577 [00:00<?, ?it/s, loss=0.438, train_loss=0.348, train_acc=0.857, val_loss=0.400, val_acc=0.814]
+
+
+
+
+
+
+
+
+
+
+Epoch 14:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:34<00:06, 14.06it/s, loss=0.434, train_loss=0.326, train_acc=0.906, val_loss=0.400, val_acc=0.814]
+Validating:   0%|                                                                                                                                                                                                | 0/116 [00:00<?, ?it/s]
+
+
+Training epoch is done.
+Training epoch is started!
+Epoch 15:   0%|                                                                                                                    | 0/577 [00:00<?, ?it/s, loss=0.449, train_loss=0.676, train_acc=0.571, val_loss=0.413, val_acc=0.807]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 15:  76%|████████████████████████████████████████████████████████████████████████████████▊                         | 440/577 [00:32<00:10, 13.45it/s, loss=0.435, train_loss=0.345, train_acc=0.844, val_loss=0.413, val_acc=0.807]
+Epoch 15:  83%|████████████████████████████████████████████████████████████████████████████████████████▏                 | 480/577 [00:34<00:06, 13.99it/s, loss=0.435, train_loss=0.345, train_acc=0.844, val_loss=0.413, val_acc=0.807]
+
+
+Training epoch is done.
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+Epoch 16:  62%|██████████████████████████████████████████████████████████████████▏                                       | 360/577 [00:27<00:16, 13.07it/s, loss=0.434, train_loss=0.433, train_acc=0.781, val_loss=0.411, val_acc=0.808]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:685: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...

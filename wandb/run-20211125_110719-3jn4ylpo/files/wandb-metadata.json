@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.12.13-051213-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-11-25T11:07:21.580848",
+    "startedAt": "2021-11-25T11:07:19.616017",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_pipeline.py",
+    "codePath": "train_pipeline.py",
+    "host": "nurbolat-B550-AORUS-PRO-V2",
+    "username": "root",
+    "executable": "/opt/conda/bin/python3"
+}

@@ -1,0 +1,578 @@
+2021-11-25 11:08:14,838 INFO    MainThread:8215 [internal.py:wandb_internal():90] W&B internal server running at pid: 8215, started at: 2021-11-25 11:08:14.837935
+2021-11-25 11:08:14,839 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: check_version
+2021-11-25 11:08:14,839 INFO    WriterThread:8215 [datastore.py:open_for_write():77] open: /workspace/wandb/run-20211125_110814-3lmplkpr/run-3lmplkpr.wandb
+2021-11-25 11:08:14,841 DEBUG   SenderThread:8215 [sender.py:send():238] send: header
+2021-11-25 11:08:14,841 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: check_version
+2021-11-25 11:08:15,248 DEBUG   SenderThread:8215 [sender.py:send():238] send: run
+2021-11-25 11:08:15,250 INFO    SenderThread:8215 [sender.py:_maybe_setup_resume():506] checking resume status for None/camera_state/3lmplkpr
+2021-11-25 11:08:16,130 INFO    SenderThread:8215 [dir_watcher.py:__init__():169] watching files in: /workspace/wandb/run-20211125_110814-3lmplkpr/files
+2021-11-25 11:08:16,130 INFO    SenderThread:8215 [sender.py:_start_run_threads():828] run started: 3lmplkpr with start time 1637838494
+2021-11-25 11:08:16,130 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:16,130 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:16,131 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: run_start
+2021-11-25 11:08:16,134 DEBUG   HandlerThread:8215 [meta.py:__init__():40] meta init
+2021-11-25 11:08:16,134 DEBUG   HandlerThread:8215 [meta.py:__init__():54] meta init done
+2021-11-25 11:08:16,134 DEBUG   HandlerThread:8215 [meta.py:probe():214] probe
+2021-11-25 11:08:16,139 DEBUG   HandlerThread:8215 [meta.py:_save_pip():58] save pip
+2021-11-25 11:08:16,140 DEBUG   HandlerThread:8215 [meta.py:_save_pip():72] save pip done
+2021-11-25 11:08:16,140 DEBUG   HandlerThread:8215 [meta.py:_save_conda():79] save conda
+2021-11-25 11:08:16,442 DEBUG   HandlerThread:8215 [meta.py:_save_conda():89] save conda done
+2021-11-25 11:08:16,442 DEBUG   HandlerThread:8215 [meta.py:probe():252] probe done
+2021-11-25 11:08:16,481 DEBUG   SenderThread:8215 [sender.py:send():238] send: files
+2021-11-25 11:08:16,481 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-11-25 11:08:16,486 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:08:16,486 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:08:16,869 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:16,869 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:16,869 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:16,869 DEBUG   SenderThread:8215 [sender.py:send():238] send: config
+2021-11-25 11:08:17,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_created():217] file/dir created: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:17,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_created():217] file/dir created: /workspace/wandb/run-20211125_110814-3lmplkpr/files/conda-environment.yaml
+2021-11-25 11:08:17,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_created():217] file/dir created: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-metadata.json
+2021-11-25 11:08:17,133 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_created():217] file/dir created: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:17,133 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_created():217] file/dir created: /workspace/wandb/run-20211125_110814-3lmplkpr/files/requirements.txt
+2021-11-25 11:08:17,506 INFO    Thread-11 :8215 [upload_job.py:push():137] Uploaded file /tmp/tmppqoa08q_wandb/2rmrza98-wandb-metadata.json
+2021-11-25 11:08:19,131 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:21,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:22,711 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:22,712 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:22,712 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:22,713 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:23,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:23,132 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:25,133 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:25,283 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:25,284 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:25,284 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:25,284 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:25,284 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:25,284 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:26,133 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:27,133 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:27,846 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:27,846 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:27,846 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:27,846 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:27,847 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:27,847 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:28,134 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:29,134 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:30,466 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:30,466 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:30,466 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:30,466 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:30,466 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:30,467 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:31,135 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:31,135 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:31,870 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:08:31,870 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:08:33,034 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:33,034 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:33,034 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:33,034 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:33,034 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:33,035 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:33,135 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:33,135 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:35,136 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:35,515 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:35,515 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:35,516 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:35,516 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:35,516 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:35,516 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:36,136 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:37,136 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:38,011 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:38,011 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:38,012 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:38,012 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:38,012 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:38,013 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:38,136 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:39,137 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:40,584 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:40,584 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:40,585 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:40,585 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:40,585 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:40,586 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:41,137 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:41,138 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:43,072 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:43,072 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:43,072 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:43,072 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:43,072 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:43,072 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:43,138 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:43,138 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:44,245 DEBUG   SenderThread:8215 [sender.py:send():238] send: stats
+2021-11-25 11:08:45,139 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:45,968 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:45,969 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:45,969 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:45,969 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:45,969 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:45,969 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:46,139 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:46,139 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:08:47,139 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:47,326 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:08:47,326 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:08:48,236 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:48,237 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:48,237 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:48,237 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:48,237 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:48,237 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:49,140 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:49,140 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:50,795 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:50,795 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:50,795 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:50,795 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:50,795 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:50,796 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:51,140 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:51,141 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:53,141 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:53,363 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:53,363 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:53,363 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:53,363 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:53,363 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:53,364 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:54,141 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:55,142 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:56,002 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:56,003 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:56,003 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:56,003 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:56,003 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:56,003 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:56,142 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:08:57,142 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:58,595 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:58,596 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:08:58,596 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:08:58,596 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:08:58,597 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:08:58,597 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:08:59,143 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:08:59,143 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:01,143 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:01,257 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:01,258 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:01,259 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:01,259 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:01,259 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:01,259 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:02,144 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:02,731 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:09:02,731 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:09:03,144 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:03,919 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:03,919 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:03,919 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:03,919 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:03,919 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:03,919 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:04,144 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:05,145 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:06,567 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:06,568 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:06,568 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:06,568 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:06,569 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:06,569 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:07,145 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:07,145 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:09,146 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:11,146 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:13,147 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:14,334 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:14,335 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:14,335 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:14,335 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:14,335 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:14,335 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:14,335 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:14,336 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:14,339 DEBUG   SenderThread:8215 [sender.py:send():238] send: stats
+2021-11-25 11:09:15,147 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:15,148 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:16,263 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:16,814 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:16,814 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:16,814 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:16,814 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:16,814 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:17,148 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:17,148 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:17,148 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:09:18,116 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:09:18,116 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:09:18,935 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:18,936 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:18,936 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:18,936 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:18,936 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:18,936 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:19,149 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:19,149 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:21,149 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:21,540 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:21,541 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:21,541 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:21,542 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:21,542 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:21,542 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:22,149 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:23,150 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:24,183 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:24,183 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:24,183 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:24,183 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:24,183 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:24,184 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:25,150 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:25,150 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:26,841 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:26,843 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:26,843 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:26,843 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:26,843 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:26,843 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:27,151 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:27,151 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:29,151 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:29,566 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:29,566 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:29,566 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:29,566 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:29,566 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:29,567 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:30,152 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:31,152 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:32,304 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:32,304 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:32,304 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:32,304 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:32,304 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:32,305 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:33,153 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:33,153 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:33,511 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:09:33,511 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:09:35,020 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:35,020 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:35,020 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:35,020 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:35,020 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:35,021 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:35,153 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:35,154 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:37,154 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:37,733 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:37,733 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:37,733 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:37,734 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:37,734 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:37,734 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:38,154 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:40,431 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:40,431 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:40,431 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:40,431 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:40,432 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:40,432 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:41,155 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:41,155 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:43,114 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:43,114 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:43,114 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:43,114 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:43,115 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:43,115 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:43,156 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:43,156 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:44,438 DEBUG   SenderThread:8215 [sender.py:send():238] send: stats
+2021-11-25 11:09:45,156 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:45,745 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:45,747 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:45,747 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:45,747 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:45,747 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:45,747 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:46,157 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:47,157 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:48,157 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:09:48,320 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:48,321 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:48,321 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:48,321 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:48,321 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:48,321 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:48,985 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:09:48,986 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:09:49,157 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:49,157 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:50,958 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:50,959 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:50,959 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:50,959 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:50,959 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:50,959 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:51,158 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:51,158 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:53,158 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:53,584 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:53,585 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:53,585 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:53,585 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:53,585 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:53,585 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:54,159 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:55,159 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:56,302 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:56,302 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:56,302 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:56,302 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:56,302 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:56,303 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:57,160 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:57,160 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:09:58,960 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:58,962 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:09:58,962 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:09:58,962 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:09:58,962 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:09:58,963 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:09:59,160 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:09:59,161 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:01,161 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:01,526 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:01,527 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:01,527 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:01,527 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:01,527 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:01,527 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:02,161 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:03,162 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:04,364 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:10:04,365 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:10:05,162 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:07,163 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:09,163 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:10,221 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:10,221 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:10,221 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:10,221 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:10,222 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:10,222 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:10,963 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:10,963 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:10,963 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:10,964 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:10,964 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:10,964 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:11,164 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:11,164 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:13,165 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:13,627 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:13,628 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:13,628 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:13,628 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:13,628 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:13,628 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:14,165 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:14,545 DEBUG   SenderThread:8215 [sender.py:send():238] send: stats
+2021-11-25 11:10:15,165 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:16,271 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:16,272 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:16,272 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:16,272 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:16,272 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:16,273 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:17,166 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:17,166 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:19,149 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:19,150 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:19,150 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:19,150 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:19,150 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:19,150 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:19,167 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:19,167 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:19,167 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:10:19,803 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 11:10:19,803 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 11:10:21,167 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:21,736 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:21,737 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:21,737 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:21,737 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:21,737 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:21,737 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:22,167 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:23,168 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:24,268 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:24,268 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:24,270 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:24,270 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:24,270 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:24,270 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:25,168 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:25,169 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:26,948 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:26,948 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:26,948 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:26,948 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:26,949 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:26,949 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:27,169 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:27,169 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:29,170 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:29,580 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:29,580 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:29,580 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:29,580 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:29,580 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:29,581 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:30,170 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:31,170 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:32,299 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:32,299 DEBUG   SenderThread:8215 [sender.py:send():238] send: metric
+2021-11-25 11:10:32,300 WARNING SenderThread:8215 [sender.py:send_metric():918] Seen metric with glob (shouldnt happen)
+2021-11-25 11:10:32,300 DEBUG   SenderThread:8215 [sender.py:send():238] send: history
+2021-11-25 11:10:32,300 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:32,300 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:32,592 WARNING MainThread:8215 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-11-25 11:10:33,171 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:33,171 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:35,158 DEBUG   SenderThread:8215 [sender.py:send():238] send: telemetry
+2021-11-25 11:10:35,158 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:35,159 DEBUG   SenderThread:8215 [sender.py:send():238] send: exit
+2021-11-25 11:10:35,159 INFO    SenderThread:8215 [sender.py:send_exit():370] handling exit code: 0
+2021-11-25 11:10:35,159 INFO    SenderThread:8215 [sender.py:send_exit():372] handling runtime: 139
+2021-11-25 11:10:35,159 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:35,159 INFO    SenderThread:8215 [sender.py:send_exit():382] send defer
+2021-11-25 11:10:35,160 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:35,160 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,160 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 0
+2021-11-25 11:10:35,160 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,160 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-11-25 11:10:35,160 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 1
+2021-11-25 11:10:35,161 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,161 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 1
+2021-11-25 11:10:35,171 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:35,172 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:35,220 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,221 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-11-25 11:10:35,221 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 2
+2021-11-25 11:10:35,221 DEBUG   SenderThread:8215 [sender.py:send():238] send: stats
+2021-11-25 11:10:35,221 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,221 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 2
+2021-11-25 11:10:35,222 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,222 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-11-25 11:10:35,222 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 3
+2021-11-25 11:10:35,222 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,222 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 3
+2021-11-25 11:10:35,222 DEBUG   SenderThread:8215 [sender.py:send():238] send: summary
+2021-11-25 11:10:35,223 INFO    SenderThread:8215 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 11:10:35,223 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,223 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-11-25 11:10:35,223 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 4
+2021-11-25 11:10:35,223 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,223 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 4
+2021-11-25 11:10:35,223 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,223 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-11-25 11:10:35,261 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:35,840 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 5
+2021-11-25 11:10:35,840 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:35,841 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:35,841 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 5
+2021-11-25 11:10:35,841 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:35,841 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-11-25 11:10:35,841 INFO    SenderThread:8215 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-25 11:10:35,942 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,172 INFO    Thread-8  :8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:36,172 INFO    SenderThread:8215 [dir_watcher.py:_on_file_modified():230] file/dir modified: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:10:36,172 INFO    SenderThread:8215 [dir_watcher.py:finish():313] scan: /workspace/wandb/run-20211125_110814-3lmplkpr/files
+2021-11-25 11:10:36,173 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json wandb-summary.json
+2021-11-25 11:10:36,173 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log output.log
+2021-11-25 11:10:36,173 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-metadata.json wandb-metadata.json
+2021-11-25 11:10:36,173 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/requirements.txt requirements.txt
+2021-11-25 11:10:36,173 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml config.yaml
+2021-11-25 11:10:36,177 INFO    SenderThread:8215 [dir_watcher.py:finish():327] scan save: /workspace/wandb/run-20211125_110814-3lmplkpr/files/conda-environment.yaml conda-environment.yaml
+2021-11-25 11:10:36,185 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 6
+2021-11-25 11:10:36,189 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,190 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:36,190 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 6
+2021-11-25 11:10:36,190 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:36,190 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-11-25 11:10:36,190 INFO    SenderThread:8215 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-25 11:10:36,291 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,291 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,392 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,392 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,493 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,493 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,594 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,595 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,696 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,696 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,797 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,797 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:36,898 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:36,899 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:37,000 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:37,000 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:37,088 INFO    Thread-14 :8215 [upload_job.py:push():137] Uploaded file /workspace/wandb/run-20211125_110814-3lmplkpr/files/requirements.txt
+2021-11-25 11:10:37,094 INFO    Thread-13 :8215 [upload_job.py:push():137] Uploaded file /workspace/wandb/run-20211125_110814-3lmplkpr/files/output.log
+2021-11-25 11:10:37,095 INFO    Thread-12 :8215 [upload_job.py:push():137] Uploaded file /workspace/wandb/run-20211125_110814-3lmplkpr/files/wandb-summary.json
+2021-11-25 11:10:37,101 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:37,101 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:37,140 INFO    Thread-15 :8215 [upload_job.py:push():137] Uploaded file /workspace/wandb/run-20211125_110814-3lmplkpr/files/config.yaml
+2021-11-25 11:10:37,202 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:37,202 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:37,303 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:37,303 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:37,340 INFO    Thread-7  :8215 [sender.py:transition_state():395] send defer: 7
+2021-11-25 11:10:37,341 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:37,341 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 7
+2021-11-25 11:10:37,341 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:37,341 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-11-25 11:10:37,404 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:38,230 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 8
+2021-11-25 11:10:38,230 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:38,230 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:38,231 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 8
+2021-11-25 11:10:38,231 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:38,231 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-11-25 11:10:38,231 INFO    SenderThread:8215 [sender.py:transition_state():395] send defer: 9
+2021-11-25 11:10:38,232 DEBUG   SenderThread:8215 [sender.py:send():238] send: final
+2021-11-25 11:10:38,232 DEBUG   SenderThread:8215 [sender.py:send():238] send: footer
+2021-11-25 11:10:38,232 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 11:10:38,232 INFO    HandlerThread:8215 [handler.py:handle_request_defer():147] handle defer: 9
+2021-11-25 11:10:38,232 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: defer
+2021-11-25 11:10:38,232 INFO    SenderThread:8215 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-11-25 11:10:38,331 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 11:10:38,332 DEBUG   SenderThread:8215 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 11:10:38,332 INFO    SenderThread:8215 [file_pusher.py:join():182] waiting for file pusher
+2021-11-25 11:10:39,110 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: get_summary
+2021-11-25 11:10:39,110 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: sampled_history
+2021-11-25 11:10:39,112 DEBUG   HandlerThread:8215 [handler.py:handle_request():130] handle_request: shutdown
+2021-11-25 11:10:39,112 INFO    HandlerThread:8215 [handler.py:finish():731] shutting down handler
+2021-11-25 11:10:39,232 INFO    WriterThread:8215 [datastore.py:close():281] close: /workspace/wandb/run-20211125_110814-3lmplkpr/run-3lmplkpr.wandb
+2021-11-25 11:10:40,109 INFO    SenderThread:8215 [sender.py:finish():1091] shutting down sender
+2021-11-25 11:10:40,109 INFO    SenderThread:8215 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-25 11:10:40,109 INFO    SenderThread:8215 [file_pusher.py:join():182] waiting for file pusher
+2021-11-25 11:10:40,110 INFO    MainThread:8215 [internal.py:handle_exit():77] Internal process exited

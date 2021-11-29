@@ -1,0 +1,1 @@
+{"results": [{"ID": "img1", "cat_prob": 3.869691025948363e-14, "dog_prob": 1.0}, {"ID": "img2", "cat_prob": 3.891207018061338e-14, "dog_prob": 1.0}, {"ID": "img3", "cat_prob": 4.0891676980278624e-13, "dog_prob": 1.0}, {"ID": "img4", "cat_prob": 1.3932329318079345e-15, "dog_prob": 1.0}, {"ID": "img5", "cat_prob": 0.9999942779541016, "dog_prob": 5.716537089028861e-06}]}

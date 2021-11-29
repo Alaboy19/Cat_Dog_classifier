@@ -1,0 +1,93 @@
+
+Validation sanity check:   0%|                                                                                                                                                                                   | 0/100 [00:00<?, ?it/s]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | model     | EfficientNet     | 4.0 M
+1 | train_acc | Accuracy         | 0
+2 | val_acc   | Accuracy         | 0
+3 | ce_loss   | CrossEntropyLoss | 0
+-----------------------------------------------
+4.0 M     Trainable params
+0         Non-trainable params
+4.0 M     Total params
+16.040    Total estimated model params size (MB)
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+Training: 0it [00:00, ?it/s]
+Training epoch is started!
+Epoch 0:   0%|                                                                                                                                                                                                  | 0/1152 [00:00<?, ?it/s]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  76%|████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                | 880/1152 [00:45<00:14, 19.24it/s, loss=0.267, train_loss=0.116, train_acc=0.938]
+Epoch 0:  83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                      | 960/1152 [00:47<00:09, 20.04it/s, loss=0.309, train_loss=0.393, train_acc=0.750]
+
+
+Validating:  52%|██████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                       | 120/231 [00:03<00:03, 34.56it/s]
+
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  76%|████████████████████████████████████████████████████████████████████████████████▉                         | 880/1152 [00:47<00:14, 18.68it/s, loss=0.185, train_loss=0.374, train_acc=0.875, val_loss=0.345, val_acc=0.895]
+Epoch 1:  83%|████████████████████████████████████████████████████████████████████████████████████████▎                 | 960/1152 [00:49<00:09, 19.48it/s, loss=0.22, train_loss=0.0643, train_acc=1.000, val_loss=0.345, val_acc=0.895]
+
+
+Validating:  69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                        | 160/231 [00:04<00:02, 35.37it/s]
+
+Training epoch is done.
+Training epoch is started!
+
+
+
+
+
+
+
+
+
+Epoch 2:  31%|█████████████████████████████████▏                                                                        | 360/1152 [00:19<00:42, 18.61it/s, loss=0.103, train_loss=0.302, train_acc=0.875, val_loss=0.430, val_acc=0.919]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:685: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+Epoch 2:  35%|████████████████████████████████████▊                                                                     | 400/1152 [00:21<00:40, 18.60it/s, loss=0.237, train_loss=0.231, train_acc=0.875, val_loss=0.430, val_acc=0.919]

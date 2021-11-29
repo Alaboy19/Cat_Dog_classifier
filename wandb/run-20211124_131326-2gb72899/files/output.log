@@ -1,0 +1,36 @@
+
+Validation sanity check:   0%|                                                                                                                                                                                   | 0/100 [00:00<?, ?it/s]
+  | Name      | Type             | Params
+-----------------------------------------------
+0 | model     | Cat_Dog          | 5.3 M
+1 | train_acc | Accuracy         | 0
+2 | val_acc   | Accuracy         | 0
+3 | ce_loss   | CrossEntropyLoss | 0
+-----------------------------------------------
+5.3 M     Trainable params
+0         Non-trainable params
+5.3 M     Total params
+21.062    Total estimated model params size (MB)
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448265233/work/c10/core/TensorImpl.h:1156.)
+
+Training: 0it [00:00, ?it/s]
+Training epoch is started!
+Epoch 0:   0%|                                                                                                                                                                                                   | 0/577 [00:00<?, ?it/s]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+
+
+
+
+
+
+
+
+Epoch 0:  62%|██████████████████████████████████████████████████████████████████████████████████████▋                                                    | 360/577 [00:27<00:16, 13.25it/s, loss=0.59, train_loss=0.630, train_acc=0.625]
+/opt/conda/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py:685: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+Epoch 0:  69%|███████████████████████████████████████████████████████████████████████████████████████████████▋                                          | 400/577 [00:30<00:13, 13.27it/s, loss=0.632, train_loss=0.591, train_acc=0.781]

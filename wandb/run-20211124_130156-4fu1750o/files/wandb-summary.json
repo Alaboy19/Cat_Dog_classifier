@@ -1,0 +1,1 @@
+{"train_loss": 0.2876676917076111, "train_acc": 0.875, "epoch": 16, "trainer/global_step": 7699, "_runtime": 680, "_timestamp": 1637759596, "_step": 169, "val_loss": 0.4111253619194031, "val_acc": 0.8077132105827332}
